@@ -27,15 +27,6 @@
             android:defaultValue="true" />
 
         <ListPreference
-            android:key="weather_source"
-            android:defaultValue="yahoo"
-            android:dependency="show_weather"
-            android:summary="%s"
-            android:entries="@array/weather_source_entries"
-            android:entryValues="@array/weather_source_values"
-            android:title="@string/weather_source_title" />
-
-        <ListPreference
             android:key="weather_refresh_interval"
             android:dependency="show_weather"
             android:defaultValue="60"
